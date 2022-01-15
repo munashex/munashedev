@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/munashedev/static/css/main.f314868f.css",
+    "main.js": "/munashedev/static/js/main.6d21165d.js",
+    "static/js/787.070db070.chunk.js": "/munashedev/static/js/787.070db070.chunk.js",
+    "static/media/madhuna.jpg": "/munashedev/static/media/madhuna.6632626da69ec0e1415c.jpg",
+    "static/media/backend.png": "/munashedev/static/media/backend.a8f1860fe7ca0f6a7d2f.png",
+    "static/media/smashing.png": "/munashedev/static/media/smashing.05d08acf3327e2da89da.png",
+    "static/media/tools.png": "/munashedev/static/media/tools.c9ce42572f554dbf2b72.png",
+    "static/media/fronted.png": "/munashedev/static/media/fronted.30df9950ea76a8017957.png",
+    "static/media/colldrop.png": "/munashedev/static/media/colldrop.71d3945a0a7fe819ac54.png",
+    "static/media/csstricks.png": "/munashedev/static/media/csstricks.82e174ea7f6f5709f54c.png",
+    "index.html": "/munashedev/index.html",
+    "main.f314868f.css.map": "/munashedev/static/css/main.f314868f.css.map",
+    "main.6d21165d.js.map": "/munashedev/static/js/main.6d21165d.js.map",
+    "787.070db070.chunk.js.map": "/munashedev/static/js/787.070db070.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f314868f.css",
+    "static/js/main.6d21165d.js"
+  ]
+}
