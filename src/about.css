@@ -1,0 +1,60 @@
+.madhuna {
+    height: 180px;
+    margin-top: 50px;
+    margin-left: 100px;
+   border: solid none;
+   border-radius: 6px;
+}
+
+@media (min-width: 995px){
+    .madhuna{
+        border: none;
+    }
+}
+
+@media (min-width: 995px){
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 320px;
+        font-size: 19px;
+        color: black;
+        margin-bottom: 90px;
+    }
+    .intro{
+        padding-left: 220px;
+        margin-top: -180px;
+    }
+    .myname{
+   display: flex;
+   justify-content: center;
+   margin-top: -20;
+ margin-right: 540px;
+    }
+    .hireme{
+    position: absolute;
+    left: 240px;
+    top: 260px;
+    }
+}
+
+.hireme{
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 180px;
+    background-color: cyan;
+}
+
+.about{
+    background-color: black;
+}
+.info{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-style: italic;
+    font-family: monospace;
+}
+.about{
+    padding-bottom: 30px;
+   
+}

@@ -1,0 +1,131 @@
+.overview{
+    margin-left: 100px;
+    margin-top: 30px;
+    padding-top: 12px;
+}
+.frontend{
+    height: 320px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 320px;
+    background-color: ghostwhite;
+}
+.backend{
+    height: 320px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 320px;
+    background-color: ghostwhite;
+}
+.database{
+    height: 320px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 320px; 
+    background-color: ghostwhite;
+}
+.imgLogo{
+ position: absolute;
+ margin-top: -30px;
+ margin-left: 120px;
+}
+.centerText{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+.frameworks{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.featured{
+    height: 250px;
+    margin-top: 50px;
+}
+.FIN{
+    text-align: center;
+}
+.companylogo{
+    height: 100px
+}
+.contactInfo{
+    background-color: #f8f8ff;
+    height: 450px;
+}
+
+@media (min-width: 995px){
+    .overview{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-right: 120px;
+    }
+    .experience{
+        position: absolute;
+       margin-right: 30%;
+       left: 400px;
+       font-weight: bold;
+    }
+    .frontend{
+        margin-top: 180px;
+        margin-left: 110px;
+    }
+    .backend{
+        margin-left: 520px;
+        margin-top: -320px;
+    }
+    .database{
+        margin-left: 920px;
+        margin-top: -320px;
+    }
+    .smashing{
+        position: absolute;
+        left: 200px;
+        top: 1050px;
+    }
+    .csstrick{
+        position: absolute;
+        left: 470px;
+        top: 1060px
+    } 
+    .sitepoint{
+        position: absolute;
+        left: 880px;
+        top: 1140px
+    }
+    .calldrop{
+        position: absolute;
+        left: 770px;
+        top: 1015px
+    }
+    .minipic{
+      position: relative;
+      left: 450px;
+    }
+    .mini-exp{
+        position: relative;
+        margin-right: 90%;
+        left: 120px; 
+    }
+    .nested{
+        position: relative;
+        left: 240px;
+    }
+    .letstalk{
+        position: relative;
+        left: 450px;
+    }
+    .contactInfo{
+        height: 380px;
+    }
+    .featured{
+        height: 200px;
+    }
+    }
+   
+

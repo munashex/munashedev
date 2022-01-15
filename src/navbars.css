@@ -1,0 +1,12 @@
+@media (min-width: 995px){
+.media{
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    right: 6px;
+    height: 40px;
+}
+.links{
+    margin-left: 1000px;
+}
+}
