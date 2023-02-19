@@ -9,7 +9,7 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+  //emailjs for handling form without server code 
     emailjs.sendForm('service_0mh5r2v', 'template_89hcr25', form.current, 'EAepdCvqJw6gmNOAx')
       .then((result) => {
         toast.success('Your message was conveyed perfectly');
