@@ -1,12 +1,12 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import {toast} from 'react-toastify'
+import {toast} from 'react-toastify'//toast for alert prompts in UI
 
 function Contact() {
   const form = useRef(); 
 
  
-//mailjs for sending emails 
+
   const sendEmail = (e) => {
     e.preventDefault();
 
