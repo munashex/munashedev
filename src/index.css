@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[#112240]
+    }
+}
+@layer components {
+    .resume-btn {
+     @apply text-[ghostWhite] border-2 border-cyan-400 px-3 py-1 rounded-2xl 
+    hover:border-green-500  hover:font-bold
+    }
+}
+
+@layer utilities {
+    .embla {
+        overflow: hidden;
+      }
+     
+      .embla__slide {
+        flex: 10 0  100%;
+        min-width: 0;
+      }
+      
+}
