@@ -6,7 +6,7 @@ function Contact() {
   const form = useRef(); 
 
  
-
+//mailjs for sending emails 
   const sendEmail = (e) => {
     e.preventDefault();
   //emailjs for handling form without server code 
