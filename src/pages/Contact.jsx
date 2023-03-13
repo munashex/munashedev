@@ -37,7 +37,7 @@ function Contact() {
        type="text" name="user_name" 
        className="my-3 w-[80%] md:w-[60%]
         placeholder:text-black lg:w-[50%] xl:w-[40%] 
-        text-center h-9 rounded-md outline-none"
+        text-center h-9 rounded-md outline-none placeholder:italic" 
        placeholder='name'
        />
 
@@ -45,11 +45,11 @@ function Contact() {
       placeholder='email'
       required type="email" 
       name="user_email"
-       className="my-3 w-[80%] md:w-[60%] placeholder:text-black
+       className="my-3 w-[80%] md:w-[60%] placeholder:text-black placeholder:italic
         lg:w-[50%] xl:w-[40%] text-center  h-9 rounded-md outline-none" />
       
       <textarea placeholder='message'
-      required name="message" className="placeholder:text-center placeholder:text-black
+      required name="message" className="placeholder:text-center placeholder:italic placeholder:text-black
        my-3 w-[80%] md:w-[60%] lg:w-[50%] xl:w-[40%] rounded-md h-[100px] 
        outline-none resize-y"/>
      

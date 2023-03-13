@@ -23,7 +23,7 @@ function Home() {
        <div className="group/item fixed left-12 bottom-[10rem]
         lg:flex items-center flex-col space-y-4 hidden xl:flex 2xl:flex 3xl:flex 4xl:flex
         ">
-         <a className="text-slate-100 cursor-pointer hover:text-[#64ffda]">
+         <a className="text-slate-100 cursor-pointer hover:text-[#64ffda]" href="https://github.com/munashex">
           <BsGithub size={20}/> 
           <span className="absolute left-7 top-[30px] space-x-3 invisible text-black  bg-[#64ff] border-2 p-1 border-[#64ffda] rounded-lg font-base group-hover/item:visible">
              <FcMultipleSmartphones size={26}/></span>
