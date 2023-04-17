@@ -6,8 +6,10 @@ import  firebase from '../assets/firebase.png'
 import hootbank from '../assets/hootbank.png' 
 import musicfinder from '../assets/musicfinder.png' 
 import mykitchen from '../assets/mykitchen.png' 
-import youtube from '../assets/youtube.png'
+import youtube from '../assets/youtube.png' 
+import delli from '../assets/delli.png'
 import react from '../assets/react.png'
+import buffalo from '../assets/buffalo.png'
 import { BsGithub } from 'react-icons/bs' 
 import {FiExternalLink} from 'react-icons/fi'
 
@@ -41,6 +43,20 @@ function Portifolio() {
       live: "https://cute-bavarois-b03747.netlify.app",
       details: "I developed Hoobank to be responsive and compatible with a wide range of devices, including media laptops and other electronic devices."
     }, 
+    {
+      image: buffalo,
+      name: 'news website', 
+      github: 'https://github.com/munashex/website-for-news-', 
+      live: '',
+      details: 'provides trusted World  news as well as local and regional perspectives. Also entertainment, business, science, technology and health news.'
+    }, 
+    {
+      image: delli, 
+      name: 'delli clone', 
+      github: 'https://github.com/munashex/AI-image-generator', 
+      live: '',
+      details: 'is an AI system that can create realistic images and art from a description in natural language'
+    }
    
 ]
   return (
