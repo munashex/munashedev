@@ -8,7 +8,11 @@ import { useNavigate, Link } from 'react-router-dom'
 function Navbar() {  
 const [isOpen, setIsOpen] = React.useState(false)  
 
-let navigate = useNavigate()
+let navigate = useNavigate() 
+
+const closeMenu = () => {
+  setIsOpen(false)
+}
 
 const navDetails = [{
   name: 'About', 
@@ -24,6 +28,7 @@ url: '/work'
   }, 
 ]
 
+
   return (
 <nav className="flex items-center justify-between m-5">
  <Link to="/">
@@ -32,10 +37,8 @@ url: '/work'
 
   <ul className="sm:flex hidden">
    {navDetails.map((item) => (
-    <Link to={`${item.url}`} className="text-white mr-10 hover:text-[#64ffda]">{item.name}</Link>
+    <Link key={item.name} to={`${item.url}`} className="text-white mr-10 hover:text-[#64ffda]">{item.name}</Link>
    ))}
-   <button onClick={() => navigate('/resume')} 
-   className="border border-[#64ffda] p-1 px-3 rounded-lg hover:border-white text-white">Resume</button>
   </ul>
   
   <ul className="sm:hidden">
@@ -45,7 +48,7 @@ onClick={() => setIsOpen(!isOpen)}
   
   <div className={`${isOpen ? 'flex': 'hidden'} rounded-lg  absolute right-12 bg-gradient-to-r from-cyan-200 to-blue-200   p-2`}>
   {navDetails.map((item) => (
-    <Link to={`${item.url}`} className="text-black mr-5 font-bold">{item.name}</Link>
+    <Link key={item.name} to={`${item.url}`} onClick={closeMenu} className="text-black mr-5 font-bold">{item.name}</Link>
    ))}
   </div>
   

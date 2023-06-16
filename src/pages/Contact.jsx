@@ -55,8 +55,8 @@ function Contact() {
      
       <button type="submit"
        className="w-[80%]  md:w-[60%] lg:w-[50%]
-        xl:w-[40%] my-3 p-1 rounded-md hover:bg-black
-         hover:text-white  text-black bg-cyan-600">Submit</button>
+        xl:w-[40%] my-3 p-1 rounded-md h
+           bg-[black] text-white">Submit</button>
     </form>
   
    </div>

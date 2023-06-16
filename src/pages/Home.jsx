@@ -17,7 +17,7 @@ function Home() {
       </h1>
        
        <a href="https://github.com/munashex">
-       <button className="mt-16  border-2 border-[#64ffda] hover:border-white p-3 rounded-lg  text-white">Check out my github</button>
+       <button className="mt-16  border-2 border-[white] hover:border-[cyan] p-3 rounded-lg  text-white">Check out my github</button>
        </a>
 
        <div className="group/item fixed left-12 bottom-[10rem]
@@ -29,10 +29,14 @@ function Home() {
              <FcMultipleSmartphones size={26}/></span>
          
          </a>
-        <a className="text-slate-100 cursor-pointer hover:text-[#64ffda]">
+        <a className="text-slate-100 cursor-pointer hover:text-[#64ffda]" 
+        href="https:instagram.com/munashedev"
+        >
           <BsInstagram size={20}/>
         </a>
-        <a className="text-slate-100 cursor-pointer hover:text-[#64ffda]">
+        <a className="text-slate-100 cursor-pointer hover:text-[#64ffda]"  
+        href="twitter.com/munashe8"
+        >
           <BsTwitter size={20}/>
         </a>
        </div> 

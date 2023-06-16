@@ -1,11 +1,12 @@
 {
-  "name": "tailwind",
+  "name": "tailwind", 
+  "homepage": "https://munadev.netlify.app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts build",
     "preview": "vite preview"
   },
   "dependencies": {

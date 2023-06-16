@@ -65,7 +65,7 @@ function Portifolio() {
        <div className="flex flex-wrap justify-center  md:gap-x-5 gap-0">
         {serverImage.map((item) => {
           return (
-           <div> 
+           <div key={item.name}> 
              <div key={item.image} className="bg-sky-900  hover:bg-sky-700 my-6 w-[100%]   md:w-[300px]  sm:w-[80%]">
               <img src={item.image} alt="projects" className="md:w-[300px] md:h-[240px] w-[100vw] h-[300px]"></img>
              <div className="flex justify-between  m-2">
